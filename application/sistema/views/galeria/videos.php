@@ -1,8 +1,3 @@
-<?php
-$url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUdx52osmZYghra6jI6dUq6A&key=AIzaSyCJvj2DlEdDDHJ_CfSA6CGSFrI-t56S7iQ';
-$json_account = json_decode(file_get_contents($url));
-?>
-
 <section id="listados">
     <div class="container">
         <div class="row margin-10">
@@ -35,3 +30,22 @@ $json_account = json_decode(file_get_contents($url));
         </div>
     </div>
 </section>
+
+<div id="made-in-ny"></div>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+    var options = {
+        id: 59777392,
+        width: 640,
+        loop: true
+    };
+
+    var player = new Vimeo.Player('made-in-ny', options);
+
+    player.setVolume(0);
+
+    player.on('play', function() {
+        console.log('played the video!');
+    });
+</script>

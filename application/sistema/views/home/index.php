@@ -1,8 +1,3 @@
-<?php
-$url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUdx52osmZYghra6jI6dUq6A&key=AIzaSyCJvj2DlEdDDHJ_CfSA6CGSFrI-t56S7iQ';
-$json_account = json_decode(file_get_contents($url));
-$json = $json_account->items[0];
-?>
 <section id="main_flexslider" class="flexslider">
     <ul class="slides">
         <?php foreach($home_slider as $slide) {
@@ -71,6 +66,7 @@ $json = $json_account->items[0];
                      </a>
     			</div>
     			<div class="span4">
+                    <?php /*
     				<div class="featured-photos">
                         <article class="youtube video flex-video">
                             <iframe width="960" height="720" src="http://www.youtube.com/embed/<?php echo $json->snippet->resourceId->videoId ?>"></iframe>
@@ -82,6 +78,7 @@ $json = $json_account->items[0];
     				    <p><?php echo $json->snippet->title ?></p>
                         </a>
                     </div>
+                    */ ?>
     			</div>
     		
     	</div>
