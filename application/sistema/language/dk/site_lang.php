@@ -1,0 +1,29 @@
+<?php
+$lang['caso']                       = 'Projekt';
+$lang['email']                      = "E- mail";
+$lang['nombre']                     = "Name ( Vorname)";
+$lang['soluciones']                = "Lösungen";
+$lang['empresa']                   = "Firma";
+$lang['porque_shipway']            = "¿Weshalb Shipway";
+$lang['experiencia_shipway']       = "Shipway´s Erfahrung";
+$lang['videos_destacados']         = "hervorzuhebende Videos";
+$lang['apellido']                   = "Nachname ";
+$lang['telefono']                   = "Telefon";
+$lang['dejanos_tu_mensaje']         = "Lassen Sie uns ihre Nachricht";
+$lang['enviar']                     = "Verschicken ( Senden)";
+$lang['campos_requeridos']         = "Auszufüllende Felder";
+$lang['contacto']                   = "KONTAKTIEREN SIE UNS";
+$lang['pais']                       = 'Land';
+$lang['rubro']                      = 'Rubrik';
+$lang['leer']                       = 'lesen';
+$lang['videos_relacionados']        = 'Videos in Verbindung';
+$lang['conozca']                    = 'Lernen Sie unsere erfolgreichsten Projekte kennen';
+$lang['galeria']                    = "Galerie";
+$lang['categorie_empty']            = "Seite in Vorbereitung";
+$lang['fotos']                      = 'Bilder';
+$lang['videos']                     = "Videos";
+$lang['global_network']             = "WELTWEITE VERBINDUNGEN";
+$lang['escriba_su_mail']            = "Ihre Mailanschrift für Shipway´s Newsletter";
+$lang['trabaje']                    = "Arbeit bei <b>Shipway</b>";
+$lang['South_America']              = "South Amerika"    
+?>

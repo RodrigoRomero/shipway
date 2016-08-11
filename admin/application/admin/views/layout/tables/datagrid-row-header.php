@@ -1,0 +1,1 @@
+<th <?php echo $width ?>><?php echo $title ?></th>

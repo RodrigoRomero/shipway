@@ -1,0 +1,29 @@
+<?php
+$lang['caso']                       = 'Case';
+$lang['email']                      = "Email";
+$lang['nombre']                     = "Name";
+$lang['soluciones']                = "Solutions";
+$lang['empresa']                   = "Company";
+$lang['porque_shipway']            = "Why shipway";
+$lang['experiencia_shipway']       = "SHIPWAY'S EXPERIENCE";
+$lang['videos_destacados']         = "INTERESTING VIDEOS";
+$lang['apellido']                   = "Surname";
+$lang['telefono']                   = "Phone";
+$lang['dejanos_tu_mensaje']         = "Leave us your message";
+$lang['enviar']                     = "Send";
+$lang['campos_requeridos']         = "Mandatory fields";
+$lang['contacto']                   = "Contact Us";
+$lang['pais']                       = 'Country';
+$lang['rubro']                      = 'Category';
+$lang['leer']                       = 'read';
+$lang['videos_relacionados']        = 'Related Videos';
+$lang['conozca']                    = 'Meet our success stories';
+$lang['galeria']                    = "Gallery";
+$lang['categorie_empty']            = "No hay casos de éxito en esta categoría";
+$lang['fotos']                      = 'Pictures';
+$lang['videos']                     = "Videos";
+$lang['global_network']             = "GLOBAL NETWORKS";
+$lang['escriba_su_mail']            = "e-mail for newsletter";
+$lang['trabaje']                    = "Working in <b>Shipway</b>";
+$lang['South_America']              = "South America"
+?>
