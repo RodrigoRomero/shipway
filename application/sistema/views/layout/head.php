@@ -24,3 +24,4 @@ _base_url = "<?php echo config_item('base_url')?>"
 </script>
 <link rel="shortcut icon" href="<?php echo image_asset_url('favicon.ico')?>" type="image/x-icon"/>
 <link rel="apple-touch-icon" href="<?php echo image_asset_url('favicon.ico')?>" />
+<script src="https://player.vimeo.com/api/player.js"></script>

@@ -15,7 +15,8 @@
             </li>
             <li></li>
             <li><a href="<?php echo lang_url('atributos/listado/p/1')?>"><i class="icon-tags"></i><span class="hidden-tablet"> Categorías</span></a></li>
-            <!-- <li><a href="<?php echo lang_url('atributos/listado/p/2')?>"><i class="icon-bookmark"></i><span class="hidden-tablet"> Atributos</span></a></li> -->
+            <li><a href="<?php echo lang_url('videos/listado')?>"><i class="icon-facetime-video"></i><span class="hidden-tablet"> Videos</span></a></li>
+            <!-- <li><a href="<?php echo lang_url('atributos/listado/p/2')?>"><i class="icon-bookmark"></i><span class="hidden-tablet"> Atributos</span></a></li> 
 			<li class="hidden-desktop hidden-tablet">
 				<a class="dropmenu" href="#"><i class="icon-wrench"></i><span> Configuraciones</span></a>
 				<ul>
@@ -23,6 +24,7 @@
 					<li><a class="submenu" href="<?php echo lang_url('configuraciones/listado')?>"><i class="icon-cog"></i><span> Configuraciones</span></a></li>								
 				</ul>	
 			</li>
+			-->
 			<li><a href="<?php echo lang_url('auth/logout')?>"><i class="icon-off"></i><span class="hidden-tablet">Logout</span></a></li>
 		</ul>
 	</div>

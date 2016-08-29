@@ -112,6 +112,23 @@ $config = array(
                                             'rules' => 'trim|required|xss_clean'
                                          ),
                                     ),
+                 'Videos' => array(
+                                    array(
+                                            'field' => 'title_sp',
+                                            'label' => 'Título',
+                                            'rules' => 'trim|required|xss_clean'
+                                         ),
+                                    array(
+                                            'field' => 'vimeo_id_sp',
+                                            'label' => 'Vimeo ID',
+                                            'rules' => 'trim|required|xss_clean'
+                                         ),
+                                    array(
+                                            'field' => 'resumen_sp',
+                                            'label' => 'Resúmen',
+                                            'rules' => 'trim|required|xss_clean'
+                                         )
+                                    ),
                  
                  
                );

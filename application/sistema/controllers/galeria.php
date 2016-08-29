@@ -5,6 +5,7 @@ class Galeria extends RR_Controller {
     public function Galeria(){
         parent::__construct();
         $this->load->model('porfolio_mod','Casos');
+        $this->load->model('videos_mod','Videos');
         $this->widget_view = array('shadowbox' => array('js'=>array('shadowbox'),'css'=>array('shadowbox')),                                   
                                    );
         
@@ -22,14 +23,19 @@ class Galeria extends RR_Controller {
         $this->_show($module);
     }
   
-    public function videos(){        
+    public function videos(){  
+         $data = array('videos'=>$this->Videos->getVideos(),
+                        'video_destacado' => $this->Videos->getVideoDestacado());
+
         $module = $this->view('galeria/videos', $data);
         $this->_show($module);
     }
     
     public function detalle($vid){
-        
-        $data = array('vid'=>$vid);
+
+        $data = array('videos'=>$this->Videos->getVideosById($vid),
+                      'videos_related'=>$this->Videos->getVideos($vid)
+                      );
         $module = $this->view('galeria/detalle_video', $data);
         $this->_show($module);
     }

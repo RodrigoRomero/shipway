@@ -11,7 +11,8 @@ class Home extends RR_Controller {
     }
 
 	public function index(){	   
-	   $data = array('home_slider'=>$this->Main->getDestacadosHome());
+	   $data = array('home_slider'=>$this->Main->getDestacadosHome(),
+                     'video_destacado' => $this->Main->getVideoDestacado());
 	   $module = $this->view('home/index', $data);      
        $this->_show($module);
 	}

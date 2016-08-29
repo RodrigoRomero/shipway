@@ -12,6 +12,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 class main_mod extends RR_Model {
 	public function __construct() {	   
  		parent::__construct();
+        $this->load->model('videos_mod', 'Videos');
     }
     
     public function getCategoriesMenu(){        
@@ -27,6 +28,10 @@ class main_mod extends RR_Model {
         
     }
     
+    public function getVideoDestacado(){
+        $result = $this->Videos->getVideoDestacado();        
+        return $result;
+    }
     /* 
     public function getItems(){
         $result = $this->db->get_where('porfolios',array('status'=>1))->result();
