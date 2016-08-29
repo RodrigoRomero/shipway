@@ -1,3 +1,4 @@
+<?php  $video_destacado = json_decode($video_destacado->json); ?>
 <section id="main_flexslider" class="flexslider">
     <ul class="slides">
         <?php foreach($home_slider as $slide) {
@@ -66,19 +67,18 @@
                      </a>
     			</div>
     			<div class="span4">
-                    <?php /*
     				<div class="featured-photos">
                         <article class="youtube video flex-video">
-                            <iframe width="960" height="720" src="http://www.youtube.com/embed/<?php echo $json->snippet->resourceId->videoId ?>"></iframe>
+                            <?php $url = 'https://player.vimeo.com/video/'.$video_destacado->lang->$Clang->vimeo_id; ?>
+                            <iframe src="<?php echo $url ?>" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </article>    					
     				</div>
     				<div class="content">
                         <a href="<?php echo lang_url('galeria/videos') ?>">
     				    <h4 class="video"><?php echo lang('videos_destacados') ?></h4>
-    				    <p><?php echo $json->snippet->title ?></p>
+    				    <p><?php echo $video_destacado->lang->$Clang->title ?></p>
                         </a>
                     </div>
-                    */ ?>
     			</div>
     		
     	</div>

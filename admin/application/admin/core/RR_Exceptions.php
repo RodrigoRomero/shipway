@@ -9,7 +9,8 @@ class RR_Exceptions extends CI_Exceptions{
 
 	public function show_error($heading, $message, $template = 'error_general', $status_code = 500){
         $logTitle = 'error';
-        $ci =& get_instance();
+        $ci =&get_instance();
+        
         if (!$page = $ci->uri->uri_string()) {
             $page = 'home';
         }
